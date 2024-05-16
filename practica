@@ -1,1 +1,25 @@
+# Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. 
+# Después debe mostrar por pantalla la paga que le corresponde
 
+cuantas_horas_trabaja_al_dia = float(input("horas trabajadas: " ))
+cuanto_te_pagan_por_hora = float (input("pago por hora: "))
+pago = cuantas_horas_trabaja_al_dia * cuanto_te_pagan_por_hora
+print ( "tu paga es", pago)
+
+#Escribir un programa que lea un entero positivo, introducido por el usuario 
+# y después muestre en pantalla la suma de todos los enteros desde 1 hasta. 
+# La suma de los primeros enteros positivos puede ser calculada de la siguiente forma: (n*(n+1)/2)
+
+n = int(input ("escriba un numero " ))
+suma= (n*(n+1)/2)
+print (suma)
+
+# Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule 
+# el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la
+# frase Tu índice de masa corporal es <imc> donde <imc> es el índice de masa corporal 
+# calculado redondeado con dos decimales.
+
+introducir_peso_en_kg = float(input("cuanto pesas? " ))
+introdusca_su_altura_en_metros = float(input( "cuanto medis?"))
+imc= introducir_peso_en_kg / introdusca_su_altura_en_metros
+print ("Tu índice de masa corporal es de ", imc )
